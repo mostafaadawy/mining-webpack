@@ -1,7 +1,8 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-     <img src="(https://user-images.githubusercontent.com/43582900/139478012-528bf9e7-408b-433b-a783-a7582055a593.png" alt="Logo" >
+  ![logo](https://user-images.githubusercontent.com/43582900/139478372-59595b20-d881-4c4f-814f-2d6ecb7eb4bb.png)
+
   </a>
 
   <h3 align="center">Evaluate a news article with NLP </h3>
