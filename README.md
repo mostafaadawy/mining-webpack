@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-     <img src="https://user-images.githubusercontent.com/43582900/138351772-40bbbd25-9a97-4c29-b999-ca6db47447ac.png" alt="Logo" >
+     <img src="(https://user-images.githubusercontent.com/43582900/139478012-528bf9e7-408b-433b-a783-a7582055a593.png" alt="Logo" >
   </a>
 
   <h3 align="center">Evaluate a news article with NLP </h3>
@@ -12,6 +12,10 @@
 </p>
 
 This project is simply aweb application to evaluate a news article with Natural Language Processing, where it is based api request from https://www.meaningcloud.com/, that make some anylises based deeep learning. itis used in conjuction with webpack bluggins and its configuration files that configure both developer and production mode. to have a light wight app that can be effecintly work on serevers  and  also can be used in developer mode thanks to developer mode configuration file. Next a simple movie that shows the working wep app.
+
+
+
+https://user-images.githubusercontent.com/43582900/139478134-7e876173-29c9-4ba1-bc94-80a1968010b2.mp4
 
 
 
