@@ -60,7 +60,7 @@ API_KEY=**************************
 ```
 then 
 ```sh
-git clone https://github.com/mostafaadawy/wouldYou.git
+git clone https://github.com/mostafaadawy/mining-webpack.git
 npm install 
 npm run build-prod
 npm run build-dev
