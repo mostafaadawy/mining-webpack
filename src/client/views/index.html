@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="assets/images/favicon.png" type="image/png" >
+        <title>WebPack Fend 3rd project</title>
+    </head>
+    <body>
+        <header>
+            <div class="app-head">
+                <img src="assets/images/logo.png" alt="logo">
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="card">                
+                    <div class="card-body">
+                        <div class="card-text">
+                            <h3>No Dout-Ask Cloud</h3>
+                            <form class="frm">
+                              <input id="sent" oninput="return Client.ctrlElement(event)" type="text" name="input" value="" placeholder="Set Your Sentence">
+                              <button id="apiCallBtn" type="submit"  onclick="return Client.apiCall(event)">Get CLoud Analysis</button>
+                            </form>
+                        <h3>Analysis Report:</h3>
+                        <div class="frm" id="analysis">
+                            <div id="waiting" class="logo is-animetion">
+                                <span>W</span><span>a</span><span>i</span><span>t</span><span>i</span><span>n</span><span>g</span> 
+                                <span>y</span><span>o</span><span>u</span><span>r</span> 
+                                <span>R</span><span>e</span><span>q</span><span>u</span><span>e</span><span>s</span><span>t</span>
+                              </div>
+                            <div id="responceDiv">
+                                <h4>Agreement:</h4><p id="ag"></p>
+                                <h4>Subjectivity:</h4><p id="sub"></p>
+                                <h4>Confidence:</h4><p id="conf"></p>
+                                <h4>Irony:</h4><p id="ir"></p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                     <div id="thinking" class="avatar"></div> 
+                </div>
+            </div>    
+        </main>
+        <footer>
+            <p>AI Text Recognation 3rd FEND Udacity Project</p>
+        </footer>
+    </body>
+</html>
