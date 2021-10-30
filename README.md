@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-     <img src="https://user-images.githubusercontent.com/43582900/138351772-40bbbd25-9a97-4c29-b999-ca6db47447ac.png" alt="Logo" >
+<img src="https://user-images.githubusercontent.com/43582900/139479088-9ca6596f-2e1e-4958-8039-15a77fe24a08.jpg" alt='logo'/>
   </a>
 
   <h3 align="center">Evaluate a news article with NLP </h3>
@@ -12,6 +12,10 @@
 </p>
 
 This project is simply aweb application to evaluate a news article with Natural Language Processing, where it is based api request from https://www.meaningcloud.com/, that make some anylises based deeep learning. itis used in conjuction with webpack bluggins and its configuration files that configure both developer and production mode. to have a light wight app that can be effecintly work on serevers  and  also can be used in developer mode thanks to developer mode configuration file. Next a simple movie that shows the working wep app.
+
+
+
+https://user-images.githubusercontent.com/43582900/139478134-7e876173-29c9-4ba1-bc94-80a1968010b2.mp4
 
 
 
@@ -56,7 +60,7 @@ API_KEY=**************************
 ```
 then 
 ```sh
-git clone https://github.com/mostafaadawy/wouldYou.git
+git clone https://github.com/mostafaadawy/mining-webpack.git
 npm install 
 npm run build-prod
 npm run build-dev
@@ -433,7 +437,24 @@ Ran all test suites.
 
 ## Udacity Review and Modifications
 
-
+according to the [revision](https://review.udacity.com/#!/reviews/3250238) i received from udacity, i just missed to add small script related to server worker
+iadded this script
+```sh
+<script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js').then(registraion=>{
+                        console.log('registraion is successful')
+                    });
+                });
+            }
+            else{
+                console.log('service worker are not supported')
+            }
+ </script>
+```
 
 ## Udacity Review Project Acceptance
 
