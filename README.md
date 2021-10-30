@@ -437,7 +437,24 @@ Ran all test suites.
 
 ## Udacity Review and Modifications
 
-
+according to the [revision](https://review.udacity.com/#!/reviews/3250238) i received from udacity, i just missed to add small script related to server worker
+iadded this script
+```sh
+<script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js').then(registraion=>{
+                        console.log('registraion is successful')
+                    });
+                });
+            }
+            else{
+                console.log('service worker are not supported')
+            }
+ </script>
+```
 
 ## Udacity Review Project Acceptance
 
